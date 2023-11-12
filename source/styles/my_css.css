@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap'); */
+
+/* подключение шрифтов */
+body {
+  background: linear-gradient(-90deg, #1b0f35 0%, #261062 18.43%,#200c5d 102.31%, #03000b 102.31%, #11072c 18.43%);
+  /* font-family: Michroma, serif ; */
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.navbar-nav.nav-link.active {
+  color: aliceblue;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-toggler {
+  background-color: gray;
+  border-style: none;
+  border-radius: 50px;
+}
+
+.sitebar {
+  color: aliceblue;
+  background: linear-gradient(180deg, #1b0f35 0%, #11072c 18.43%,#261261 102.31%, #03000b 102.31%, #11072c 18.43%);
+}
+.footer-text{
+  color: aliceblue
+}
+
+
+.card {
+  display: flex;
+  text-align: center;
+  color: aliceblue;
+  background: linear-gradient(90deg, #1b0f35 0%, #6e49d3 18.43%,#170d34 102.31%, #241352 102.31%, #11072c 18.43%);
+
+}
+.card a{
+  text-decoration: none;  /*подчеркивание текста*/
+  color: aliceblue;
+}
+.card:hover{
+  border-color: rgb(2, 8, 39);
+  border-radius: 50px;
+  box-shadow: hsl(0, 6%, 78%) ;
+
+}
+.slide-text{
+  color: aliceblue;
+   margin: auto auto; /*отцентрует текст в контейнере по осям х и у */
+}
+
+footer,
+.btn-outline-primary{
+  background: linear-gradient(270deg, #1b0f35 0%, #11072c 18.43%,#261261 102.31%, #03000b 102.31%, #11072c 18.43%);
+}
+
+.img-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-nav-img{
+  display: flex;
+  text-align: center;
+}
+
+.call-animate{
+  animation: call 2s ease 0s 1000000000000000000000000 alternate forwards;
+}
+@keyframes call {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
